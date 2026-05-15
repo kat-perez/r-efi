@@ -53,3 +53,4 @@ pub mod tcp6;
 pub mod timestamp;
 pub mod udp4;
 pub mod udp6;
+pub mod usb_io;

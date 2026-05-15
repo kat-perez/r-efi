@@ -212,6 +212,10 @@ pub mod hii;
 #[rustfmt::skip]
 pub mod system;
 
+// Import definitions from industry standards that are used by UEFI protocols.
+#[rustfmt::skip]
+pub mod industry;
+
 // Import the protocols. Each protocol is separated into its own module, readily imported by the
 // meta `protocols` module. Note that this puts all symbols into their respective protocol
 // namespace, thus clearly separating them (unlike the UEFI Specification, which more often than
@@ -241,6 +245,7 @@ pub mod efi {
 
     pub use crate::gpt;
     pub use crate::hii;
+    pub use crate::industry;
     pub use crate::protocols;
     pub use crate::vendor;
 }
