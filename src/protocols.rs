@@ -37,6 +37,7 @@ pub mod memory_attribute;
 pub mod mp_services;
 pub mod pci_io;
 pub mod platform_driver_override;
+pub mod ram_disk;
 pub mod rng;
 pub mod service_binding;
 pub mod shell;
