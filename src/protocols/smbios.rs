@@ -14,6 +14,3 @@ pub const PROTOCOL_GUID: crate::base::Guid = crate::base::Guid::from_fields(
 
 /// The reserved SMBIOS handle used for automatic handle assignment.
 pub const HANDLE_PI_RESERVED: u16 = 0xfffe;
-
-/// The maximum SMBIOS string length.
-pub const STRING_MAX_LENGTH: usize = 64;
